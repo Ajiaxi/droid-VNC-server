@@ -9,15 +9,15 @@ APP_CFLAGS += \
 
 # APP_LDFLAGS += -lm_hard		
 
-APP_CFLAGS += \
-	-march=armv7-a \
-	-mfpu=neon \
-	-mfloat-abi=softfp \
-	-marm \
-	-fprefetch-loop-arrays \
-	-DHAVE_NEON=1
+#APP_CFLAGS += \
+#	-march=armv7-a \
+#	-mfpu=neon \
+#	-mfloat-abi=softfp \
+#	-marm \
+#	-fprefetch-loop-arrays \
+#	-DHAVE_NEON=1
 
-APP_ABI:=armeabi-v7a 
+APP_ABI:=x86_64 
 APP_OPTIM := debug
-APP_PLATFORM := android-18
+APP_PLATFORM := android-23
 #APP_MODULES:= jpeg libpng libcrypto_static libssl_static androidvncserver
