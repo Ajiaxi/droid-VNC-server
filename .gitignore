@@ -4,3 +4,4 @@ libs
 obj
 tmp
 *.swp
+jni/minicap-shared
